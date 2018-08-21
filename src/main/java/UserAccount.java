@@ -1,5 +1,13 @@
 public class UserAccount implements IAccount {
 
+    /*
+    private User user;
+    
+    public UserAccount(){}
+    public UserAccount(User user){
+    this.user = user;
+    }*/
+    
     @Override
     public void withdrawal(User user, int summa) {
         if (checkTransaction(user, summa)) {
